@@ -50,7 +50,7 @@ namespace DIO.Tarefas.Controllers
         {
             // TODO: Buscar  as tarefas no banco utilizando o EF, que contenha o status recebido por parâmetro
             // Dica: Usar como exemplo o endpoint ObterPorData
-            if(status != EnumStatusTarefa.Finalizado) return NotFound();
+            // if(status != EnumStatusTarefa.Finalizado) return NotFound();
 
             var tarefa = _context.Tarefas.Where(x => x.Status == status);
             return Ok(tarefa);
