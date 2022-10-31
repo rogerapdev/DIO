@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "07cc34d7-0ffb-4fb8-a8df-691675a2c577": {
+      "ProjectGuid": "07cc34d7-0ffb-4fb8-a8df-691675a2c577",
+      "DisplayName": "Mercadinho.Infrastructure.Data",
+      "ColorIndex": 0
+    },
+    "64aadfc2-d3ed-4ed6-ab6e-7f4dfec13f06": {
+      "ProjectGuid": "64aadfc2-d3ed-4ed6-ab6e-7f4dfec13f06",
+      "DisplayName": "Mercadinho.API",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

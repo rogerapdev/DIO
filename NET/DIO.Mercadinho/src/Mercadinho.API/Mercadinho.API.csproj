@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mercadinho.Domain\Mercadinho.Domain.csproj" />
+    <ProjectReference Include="..\Mercadinho.Infrastructure.Data\Mercadinho.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\Categoria\Command\" />
+    <Folder Include="Application\Categoria\Validation\" />
+    <Folder Include="Application\Estoque\Command\" />
+    <Folder Include="Application\Estoque\Handler\" />
+    <Folder Include="Application\Estoque\Query\" />
+    <Folder Include="Application\Estoque\Validation\" />
+    <Folder Include="Application\Produto\Command\" />
+    <Folder Include="Application\Produto\Handler\" />
+    <Folder Include="Application\Produto\Query\" />
+    <Folder Include="Application\Produto\Validation\" />
+  </ItemGroup>
+
+</Project>
