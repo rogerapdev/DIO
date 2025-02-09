@@ -1,4 +1,4 @@
-package src;
+package DIO.iPhone;
 
 public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
 

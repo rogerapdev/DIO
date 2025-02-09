@@ -1,4 +1,4 @@
-package src;
+package DIO.iPhone;
 
 public interface NavegadorInternet {
 	
